@@ -24,7 +24,7 @@ jobs:
         credentials_json: ${{ secrets.GKE_SA_KEY }}
 
     - name: Set GCP Project
-      run: gcloud config set project horizontal-tube-424123-a0
+      run: gcloud config set project argon-rider-425115-g5
 
     - name: Install gke-gcloud-auth-plugin
       run: gcloud components install gke-gcloud-auth-plugin
